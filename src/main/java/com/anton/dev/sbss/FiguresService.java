@@ -17,7 +17,6 @@ public class FiguresService {
     public static final String NAME = "FiguresService";
 
     public int sum(int firstNumber, int secondNumber) {
-
         return firstNumber + secondNumber;
     }
 
@@ -30,9 +29,11 @@ public class FiguresService {
     }
 
     public int multiply(int firstNumber, int secondNumber) {
-
         return firstNumber * secondNumber;
+    }
 
+    public int div(int firstNumber, int secondNumber) {
+        return firstNumber / secondNumber;
     }
 
 }
